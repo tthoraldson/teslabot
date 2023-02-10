@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "deletemeeee"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1r4af0jvo0emx"
+s3_prefix = "deletemeeee"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["SentimentFunction=938364622527.dkr.ecr.us-east-1.amazonaws.com/deletemeeeea4756f8e/sentimentfunction35d37012repo"]
